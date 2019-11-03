@@ -23,5 +23,5 @@ Or, just by running the following command:
 
 ## Usage
 
-Run `python xml2conll.py --input [XML FILE PATH]` to convert the XML file to CONLL format.
+Run `python3 xml2conll.py --input [XML FILE PATH]` to convert the XML file to CONLL format.
 If needed, you can specify the output file name with `--output [CONLL FILE PATH]`.
