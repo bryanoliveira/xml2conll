@@ -8,6 +8,8 @@ parser.add_argument('--input', type=str, default='datasets/harem/miniHAREM.xml',
                     help='The XML file to convert')
 parser.add_argument('--output', type=str,
                     help='The output CONLL file name')
+parser.add_argument('--csv', action='store_true',
+                    help='Convert to CSV instead of CONLL')
 args = parser.parse_args()
 
 # Read XML input file
@@ -32,13 +34,22 @@ def cat2bio(category):
         return 'B-' + category
 
 # Scan all the docs searching for text and their tags
+
+
 def scandown(elements, categ, output, depth=0):
     global lines
     for el in elements:
         if el.nodeName == '#text':
             first = True
             for token in nltk.word_tokenize(el.nodeValue):
-                output.write(token + ' ' + cat2bio(categ) + '\n')
+                category = cat2bio(categ)
+                if args.csv:
+                    token = '"' + token + '"'
+                    category = '"' + category + '"'
+                    output.write(token + ', ' + category + '\n')
+                else:
+                    output.write(token + ' ' + category + '\n')
+
                 lines += 1
 
         scandown(
@@ -54,7 +65,7 @@ def scandown(elements, categ, output, depth=0):
 
 lines = 0
 output_file_name = args.input.split(
-    'xml')[0] + 'conll' if not args.output else args.output
+    'xml')[0] + ('csv' if args.csv else 'conll') if not args.output else args.output
 with open(output_file_name, 'a') as output:
     last_category = False
     scandown(docs, 'O', output)
