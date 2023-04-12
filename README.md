@@ -2,7 +2,7 @@
 
 A simple script to convert XML Named Entity Recognition annotations to the CONLL format.
 This script was made to convert XMLs from the project [HAREM](https://www.linguateca.pt/HAREM/), a famous Portuguese NER dataset.
-An example of input file can be found in `example.xml` or [here](https://www.linguateca.pt/aval_conjunta/HAREM/colecSegundoHAREMexemplo.xml).
+An example of input file can be found in `example.xml` or [here](https://www.linguateca.pt/aval_conjunta/HAREM/CDPrimeiroHAREMMiniHAREM.xml).
 
 ## Install
 
