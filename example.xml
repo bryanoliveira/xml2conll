@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE colHAREM [
+
+<!ELEMENT colHAREM (DOC)*>
+<!ATTLIST colHAREM
+  versao CDATA #REQUIRED>
+
+<!ELEMENT DOC (#PCDATA|ALT|EM|OMITIDO|P)*> <!ATTLIST DOC DOCID CDATA #REQUIRED>
+
+<!ELEMENT P (#PCDATA|ALT|EM|OMITIDO)*>
+
+<!ELEMENT ALT (#PCDATA|EM|OMITIDO)*>
+
+<!ELEMENT EM (#PCDATA)>
+<!ATTLIST EM
+  ID CDATA #REQUIRED
+  CATEG CDATA #IMPLIED
+  TIPO CDATA #IMPLIED
+  SUBTIPO CDATA #IMPLIED
+  COMENT CDATA #IMPLIED
+  TIPOREL CDATA #IMPLIED
+  COREL CDATA #IMPLIED
+  TEMPO_REF (ENUNCIACAO|TEXTUAL) #IMPLIED
+  SENTIDO (ANTERIOR|POSTERIOR|SIMULT|ANTERIOR_OU_SIMUL|POSTERIOR_OU_SIMULT) #IMPLIED
+  VAL_DELTA CDATA #IMPLIED
+  VAL_NORM CDATA #IMPLIED>
+
+<!ELEMENT OMITIDO (#PCDATA|EM)*>
+]>
+
+<colHAREM versao="Segundo_exemplo_2.0">
+
+<DOC DOCID="ex1">
+<P>
+Eleições à vista no PSD/Vila Real</P>
+<P>
+O deputado social-democrata Fernando Pereira anunciou ontem a sua candidatura à presidência da Comissão Política Distrital de Vila Real do PSD, cujas eleições irão ter lugar em Fevereiro. O presidente em exercício, Mascarenhas Ferreira, havia já confirmado a sua recandidatura, pelo que é de esperar uma disputa renhida entre duas personalidades que estiveram do mesmo lado na altura da eleição da actual Distrital. Tudo indica que não surja mais nenhum concorrente.</P>
+<P>
+Ao contrário do que seria legítimo pensar, a candidatura de Fernando Pereira não aparece como resposta aos maus resultados obtidos pelo PSD nas eleições autárquicas de Dezembro, quando perdeu para o PS as Câmaras de Alijó e Vila Pouca de Aguiar, mas sim por desinteligências quanto à forma de actuar de Mascarenhas Ferreira, a quem alguns dirigentes acusam de tomar decisões importantes «nas costas» da Distrital. Como exemplo é-lhe apontado o caso da comissão administrativa nomeada pela Secretaria de Estado do Turismo para a Região de Turismo da Serra do Marão, cuja composição foi acordada secretamente entre Mascarenhas e um dos vice-presidentes da Distrital, Miguel Rodrigues, chefe dos Serviços Administrativos da Universidade de Trás-os-Montes e Alto Douro (UTAD), onde o primeiro é vice-reitor. Para surpresa de todos, a escolha para presidente daquela comissão veio a recair na esposa do segundo, Lucinda Rodrigues, chefe dos Serviços Académicos da UTAD.</P>
+<P>
+O crescente protagonismo do chamado «grupo da universidade» vinha, de resto, causando um certo mal-estar junto de alguns dirigentes sociais-democratas, a maioria dos quais integrantes do intitulado «grupo da Jota», liderado por Fernando Pereira, que, além de deputado, é o presidente da Assembleia Municipal de Ribeira de Pena. Este grupo, pelo seu peso eleitoral, tem tido um papel preponderente na escolha dos elencos distritais, pelo que não chega a ser uma surpresa a candidatura do seu mentor. </P>
+<P>
+P. G.</P>
+</DOC>
+<DOC DOCID="ex2">
+<P>Entre o jdanovismo e a ignorância</P>
+<P>
+Augusto M. Seabra</P>
+<P>
+Se não quer ser simplesmente ignorante, a comissária Seabra que atente às regras da economia cinematográfica. O que conta, então, não são os valores dos números de espectadores nacionais, mas as receitas de um produto nos diferentes tipos de circuito internacional. E sabe que mais? O filme português recentemente mais vendido e visto, imagine a senhora tão PSDista, e o PS e o «Expresso», é... «Vale Abraão», de Manoel de Oliveira.</P>
+<P>
+Sentir o imperativo ético de voltar a escrever sobre «o cinema português» não deixa de ser um acto penoso, mas inadiável. Se o faço ao fim de alguns anos de deliberado silêncio (não sobre este ou aquele filme, mas sobre as questões estruturais), isso deve-se a razões de longo prazo, à sua agudização em curto prazo, mas também a dois motivos que, sendo pessoais, não deixam de se prender com o debate em curso: em primeiro lugar, porque penso que o período mais exaltante do cinema português, que genericamente correspondeu aos anos 80, foi ultrapassado numa conjuntura que, para todos os efeitos políticos, teve início com a nomeação de Pedro Santana Lopes para secretário de Estado da Cultura em 2 de Janeiro de 1990; em segundo lugar, porque as funções que venho ocupando no European Script Fund do Programa Media das Comunidades Europeias fazem com que a única relação institucional que mantenho com o cinema português ocorra num quadro europeu em que, quando se tem por função ler ou discutir para aí uns 300 projectos de guiões cinematográficos e televisivos por ano, os modos de entendimento não deixam de ser diferentes.</P>
+<P>
+A luta pela existência de condições para o funcionamento regular de uma produção é quase tão velha como o próprio cinema português -- essa indústria «horrivelmente cara», como Salazar se queixava a António Lopes Ribeiro. Com o tempo produziram-se mitos, que um novo-vindo, a televisão (essa mesma que aqui, como em toda a parte, tantos espectadores e viabilidade económica retirou ao cinema), consolidou. Quantas vezes já não ouvimos locutores virem relembrar uma suposta «idade de ouro» do cinema português?</P>
+<P>
+Pois é, mas então pergunte-se a António Lopes Ribeiro porque faliu a sua produtora depois de três filmes tidos como tão populares como «O Pai Tirano», «O Pátio das Cantigas» e «Aniki-Bóbó». A degenerescência hegemónica do velho Estado Novo e a cada vez mais insistente presença no espaço público (mesmo com todos os cortes de censura) dos autores de um «novo cinema português» levaram à definição de um apoio do Estado, consagrado na lei 7/71, na vigência do marcelismo. O facto nem era inédito, pois em diversos países da Europa se consagrava então o apoio do Estado à produção cinematográfica.</P>
+<P>
+As circunstâncias históricas, e desde logo o 25 de Abril, levaram a algumas particularidades no caso, duas antes de mais: o divórcio acentuado entre produção e distribuição; a consolidação de uma ideologia hegemónica entre os realizadores, como se, por apoio do Estado e alheamento das regras do mercado, Portugal se tivesse transformado numa espécie de utopia da criação cinematográfica. Contudo, em raros países a parte da produção nacional no respectivo mercado é tão restrita. E, apesar disso, em poucos países os realizadores (que não directamente os filmes) têm tal presença no espaço público.</P>
+</DOC>
+<DOC DOCID="ex3">
+<P>A Concessão de Évora Monte ou Capitulação de Évora Monte (depois impropriamente chamada de Convenção de Évora Monte) foi um acordo assinado entre liberais e miguelistas na pacata vila alentejana de Évora Monte (hoje concelho de Estremoz), em 26 de Maio de 1834, o qual pôs termo à guerra civil de 1832-34, que vinha dilacerando a nação portuguesa havia cerca de dois anos.</P>
+<P>
+Antecedentes</P>
+<P>
+D. Miguel I, considerado soberano usurpador do trono de sua sobrinha D. Maria da Glória pelos liberais, havia perdido as grandes batalhas da guerra civil no Ribatejo (Pernes, Almoster e Asseiceira) nos primeiros meses de 1834, e refugiara-se com o seu quartel-general no Alentejo, a única região do Reino que lhe continuava formalmente fiel.</P>
+<P>
+Com um exércio pouco motivado para continuar a sua luta por uma causa já perdida, com inúmeras baixas e outras tantas deserções para o lado que acabaria por sair vencedor, D. Miguel instalou-se no então concelho de Évora-Monte com o seu Conselho de Guerra. Ponderando a hipótese de uma derradeira e decisiva batalha às portas de Évora, a manutenção de uma guerra de guerrilha no Baixo Alentejo e Algarve, a retirada para Espanha para auxiliar a causa carlista de seu primo Don Carlos (pretendente absolutista ao trono da Espanha, que o disputava à sua sobrinha Isabel II - situação, de resto, similar à que se vivia em Portugal), ou a rendição pura e simples, acabou o Conselho de Guerra por deliberar, no dia 23 de Maio, pedir um armistício aos chefes liberais, para que cessassem imediatamente as hostilidades. </P>
+</DOC>
+<DOC DOCID="ex4">
+<P>Pesquisadores do Museu Nacional do Rio de Janeiro anunciaram ontem a descoberta de uma nova espécie de dinossauro no Brasil. O animal era um carnívoro que habitou o nordeste brasileiro há 110 milhões de anos, no período Cretáceo (o último da era dos grandes répteis). Batizado de Santanaraptor placidus, o fóssil é o único a ser encontrado no país com restos de tecido mole, como fibras musculares, vasos sanguíneos e pele.</P>
+<P>
+Para os paleontólogos, achar esse tipo de evidência equivale a acertar na loteria. "É como se o dinossauro tivesse sido enterrado ontem", disse Alexander Kellner, geólogo do Setor de Paleovertebrados do Museu Nacional e coordenador da expedição que encontrou o fóssil na região da Chapada do Araripe, Ceará (veja mapa).</P>
+<P>
+Com os tecidos preservados, os cientistas esperam poder saber mais sobre o modo de vida e a evolução dos répteis. </P>
+<P>
+Outra importante descoberta é que, na cadeia evolutiva dos dinossauros, o Santanaraptor ocuparia uma posição no grupo Tyrannoraptora, o mesmo do Tyrannossaurus rex, que habitou os EUA no final da era dos dinos.</P>
+<P>
+Segundo Kellner, apesar de o animal ser um baixinho (poderia atingir, no máximo, 2,5 metros de altura), suas patas e bacia têm características anatômicas muito semelhantes às do ilustre réptil norte-americano. "O Santanaraptor pode ser a espécie que deu origem ao tiranossauro 68 milhões de anos mais tarde", explicou o geólogo.</P>
+<P>
+Predador</P>
+<P>
+O exemplar de Santanaraptor encontrado pela equipe carioca foi desenterrado em 1991, mas a montagem do fóssil só foi concluída nove anos mais tarde. Tudo o que sobrou dele foram as patas e partes da cauda e da bacia, mas os pesquisadores conseguiram estimar que o bicho fosse um filhote de 1,5 metro de altura. </P>
+<P>
+Sua estrutura óssea é de um dinossauro ágil e veloz, que provavelmente se alimentava de pequenas presas _um raptor, na linguagem dos paleontólogos. O nome é uma alusão à região onde ele viveu (a Formação Santana).</P>
+</DOC>
+<DOC DOCID="ex5">
+<P>O presidente da Comissão Nacional de Ética em Pesquisa, William Saad Hossne, disse ontem, na 52ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência, que a comunidade científica internacional pode alterar a Declaração de Helsinque, sobre ética em pesquisas com humanos.</P>
+<P>
+Em estudos no Terceiro Mundo, os cientistas se desobrigariam de fornecer aos doentes o melhor tratamento médico conhecido. A proposta, a ser discutida, dá aos pesquisados o direito de receber terapia dada pelo governo de seu país _que pode ser nenhuma.</P>
+<P>
+O debate surgiu após estudos em Ruanda e na Tailândia em que cientistas deram a grávidas com HIV um regime de AZT mais breve do que o recomendado. Queriam saber se o regime curto era melhor que nada para impedir a contaminação do feto. Para isso, outro grupo de grávidas com HIV não recebeu remédio algum. Comprovou-se que o regime mais breve basta, na maioria dos casos, para impedir a contaminação.</P>
+<P>
+Os pesquisadores argumentaram que as mulheres que não receberam AZT não o teriam recebido, de qualquer forma, e que seria impossível obter resultados precisos sem esse grupo. Além disso, o resultado da pesquisa beneficia países pobres, onde o regime curto é o único acessível.</P>
+<P>
+Contra esse ponto de vista, Hossne defende a norma atual: em pesquisa de tratamentos, os doentes devem receber ao menos o remédio mais eficiente já descoberto para sua doença.</P>
+<P>
+Hossne citou o estudo de Tuskegee (EUA), em que negros com sífilis não foram tratados por 40 anos para que a evolução da doença fosse estudada. Os EUA, disse ele, foram um dos últimos países a assinar a Declaração de Helsinque. O texto, de 89, traça diretrizes para ética em pesquisas. Seus termos são endossados pela OMS (Organização Mundial da Saúde). A proposta já faz parte de outras declarações, como a Declaração de Consenso de Atlanta, de 99, assinadas por menos cientistas e sem endosso da OMS.</P>
+</DOC>
+<DOC DOCID="ex6">
+<P>Astrônomos brasileiros esperam fotografar os primeiros planetas fora do Sistema Solar com a ajuda do maior telescópio do mundo, o Gemini, a partir do ano que vem. </P>
+<P>
+A informação foi dada na conferência "Da Origem do Universo aos Grandes Telescópios", ministrada ontem por João Steiner, astrofísico da USP, durante a 52ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência. A reunião começou anteontem no campus da UnB (Universidade de Brasília).</P>
+<P>
+O planeta mais distante até hoje fotografado é Plutão. "Imagine alguém de fora da nossa galáxia que tente fotografar o Sol. Essa pessoa não perceberia a Terra, que seria ofuscada pela luminosidade solar", explicou Steiner. O mesmo acontece atualmente com os astrônomos que fotografam estrelas muito distantes.</P>
+<P>
+No entanto, o Gemini poderá "enxergar" planetas. Isso porque, além de medir luz, o telescópio mede calor, por meio de radiação infravermelha. E, embora não emitam luz, planetas geram calor.</P>
+<P>
+O projeto Gemini, resultado de um consórcio de sete países, envolve a construção de dois telescópios com um espelho de oito metros de diâmetro.</P>
+<P>
+Um dos telescópios já está pronto e em funcionamento no Havaí, EUA. O outro entrará em operação no ano que vem, em Atacama, Chile, e o Brasil terá direito a usá-lo 14 noites por ano.</P>
+<P>
+Segundo Steiner, os telescópios Gemini têm capacidade científica de observação e qualidade de imagem dez vezes superiores às de um telescópio espacial.</P>
+</DOC>
+</colHAREM>
